@@ -2,8 +2,8 @@ import mobileDoubleTriangle from '../../images/mobile/doubleTriangle.png'
 import mobileTriangle from '../../images/mobile/triangle.png'
 import mobileCross from '../../images/mobile/cross.png'
 import EventEmitter from '../Utils/EventEmitter'
-import { TweenLite } from 'gsap/TweenLite'
-
+//import { TweenLite } from 'gsap/TweenLite'
+import { TweenLite } from 'gsap'
 export default class Controls extends EventEmitter
 {
     constructor(_options)

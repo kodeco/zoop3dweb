@@ -1,7 +1,9 @@
 import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
-import { TweenLite } from 'gsap/TweenLite'
-import { Power1 } from 'gsap/EasePack'
+//import { TweenLite } from 'gsap/TweenLite'
+import { TweenLite } from 'gsap'
+//import { Power1 } from 'gsap/EasePack'
+import { Power1 } from 'gsap/dist/EasePack.js'
 
 export default class Camera
 {
